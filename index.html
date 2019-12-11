@@ -28,7 +28,6 @@
   padding: 10px 15px;
   margin-top: 7px;
 }
-
 @media only screen and (max-width:800px) {
   /* For tablets: */
   .main {
@@ -57,18 +56,19 @@
 <div style="overflow:auto">
 
   <div class="main">
-    <h2>Agenda 2019</h2>
-    <ol>
-    	<li>Nikahan arif : 25 Desember</li>
-    </ol>
+    
     <h2>Agenda 2020</h2>
-    <ol>
+    <ol >
       <li>Nikahan Anu : 25 Desember</li>
       <li>Nikahan Anu : 25 Desember</li>
     </ol>
-    <h2>Tentang Kami</h2>
+    <h2>Undangan</h2>
     <ol>
-            <li> Hikmawati Madjid, S.Ak </li>
+       <li> <a href="#" onclick="myFunction()"> Muh Riansyah T, ST </a>
+        <ol id="demo"></ol>
+      </li>
+      
+      <li> Hikmawati Madjid, S.Ak </li>
       <li> Indah Eva Y W A, ST </li>
       <li> Faizal Afnan & istri 🤭 </li>
       <li> Arif Rachman Halid, ST </li>
@@ -76,7 +76,7 @@
       <li> Cahyaniza, S.Ak </li>
       <li> Nur Isnaini Ulfa, M.Si </li>
       <li> Ishmah Nurul Roudhoh Usman </li>
-      <li> Muh Riansyah T, ST </li>
+      
       <li> Mangedi Saputra </li>
       <li> Risqah Fadilah, STP </li>
       <li> Wa Efis Amalia </li>
@@ -103,6 +103,14 @@
 
 
 <div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;"> This web page is a part of a demonstration of fluid web design made by w3schools.com. Resize the browser window to see the content respond to the resizing.</div>
+<ol>
+
+</ol>      
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = '<li>Github : <a href="https://github.com/RiansyahTohamba/">RiansyahTohamba</a> </li>          <li>LinkedIn <a href="https://www.linkedin.com/in/muhammad-riansyah-tohamba-242344108/"> Muhammad Riansyah Tohamba</a> </li>          <li>Medium : <a href="https://medium.com/@riansyahtohamba">@riansyahtohamba</a> </li>                  ';
+}
+</script>
 
 </body>
 </html>
